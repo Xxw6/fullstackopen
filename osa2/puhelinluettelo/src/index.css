@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 24px;
+  color: #202020;
+}
+main { max-width: 720px; }
+button { margin-left: 8px; cursor: pointer; }
+input { padding: 4px; max-width: 100%; box-sizing: border-box; }
+form > div { margin-bottom: 8px; }
+label { display: inline-block; }
+button:disabled { cursor: wait; }
+li { margin-bottom: 4px; }
+.notice { border: 2px solid; border-radius: 5px; padding: 10px; margin: 12px 0; }
+.notice.success { color: #166534; background: #f0fdf4; }
+.notice.error { color: #b91c1c; background: #fef2f2; }
+.flag { width: 180px; max-width: 100%; border: 1px solid #ddd; margin-top: 12px; }
+.weather-icon { font-size: 48px; line-height: 1.2; }
